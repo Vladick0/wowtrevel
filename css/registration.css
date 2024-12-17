@@ -1,0 +1,118 @@
+html{
+    background-color:#0377C6;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    display:flex;
+    width:1900px;
+    height:100px;
+    justify-content: space-around;
+    background-color:rgba(0, 0, 0, .2);
+    align-items: center;
+}
+
+.menu p{
+    font-family: 'Geologica';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.menu h3{
+    font-family: 'Geologica';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    color:#ffffff;
+}
+
+.block_registration{
+    width:1800px;
+    height:600px;
+    padding:20px;
+    margin-top:100px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.block_reg_maintxt h3{
+    position:absolute;
+    font-family: Geologica;
+    font-size: 58px;
+    font-style: italic;
+    font-weight: 800;
+    top:100px;
+    color:#ffffff;
+}
+
+.block_dopinfo{
+    width:1200px;
+}
+
+.block_dopinfo_maintxt h3{
+    font-family: Geologica;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 800;
+    color:#ffffff;
+}
+
+.block_dopinfo_txt p{
+    font-family: Geologica;
+font-size: 16px;
+font-style: italic;
+font-weight: 900;
+color:#ffffff;
+}
+
+footer{
+    width:1900px;
+    height:200px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #004e83;
+    margin-top:100px;
+}
+
+.block_footer_contact p{
+    font-family: Geologica;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    color:#ffffff;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.block_footer_logo{
+    font-family: Geologica;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    color:#ffffff;
+}
+
+.block_footer_tele{
+    font-family: Geologica;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    color:#ffffff;
+}

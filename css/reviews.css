@@ -1,0 +1,212 @@
+html{
+    background: #0377C6;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.main_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    display:flex;
+    width:1900px;
+    height:100px;
+    justify-content: space-around;
+    background-color:rgba(0, 0, 0, .2);
+    align-items: center;
+}
+
+.menu p{
+    font-family: 'Geologica';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.menu h3{
+    font-family: 'Geologica';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    color:#ffffff;
+}
+
+
+.block_maintxt{
+    position:absolute;
+    left:100px;
+}
+
+.block_maintxt h3{
+    font-family: Geologica;
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 800;
+    color:#ffffff;    
+}
+
+.block_f_rev{
+    margin-top:80px;
+    width:1200px;
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+}
+
+.block_frev_txt{
+    width:700px;
+}
+
+.block_frev_txt h4{
+    font-family: Geologica;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    color:#ffffff;        
+}
+
+.block_frev_txt p{
+    font-family: Geologica;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
+    color:#ffffff;
+}
+
+.block_s_rev{
+    width:1400px;
+    height:600px;
+    display:flex;
+    flex-direction: column;
+    margin-top:100px;
+    background-color:#6db3ff;
+    padding:50px;
+    margin-bottom:50px;
+}
+
+.block_srev_txt{
+    display:flex;
+    align-items: center;
+}
+
+.block_srevtxt_f h4{
+    font-family: Geologica;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    color:#ffffff;
+}
+
+.block_srev_txt p{
+    font-family: Geologica;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
+    color:#ffffff;
+}
+
+.block_srev_txt{
+    width:300px;
+}
+
+.block_srev_txt_s p{
+    font-family: Geologica;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
+    color:#ffffff;    
+}
+
+.block_t_rev{
+    width:1200px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block_trev_txt{
+    width:1050px;
+}
+
+.block_trevtxt_main h3{
+    font-family: Geologica;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    color:#ffffff;
+}
+
+.block_trevtxt_p p{
+    font-family: Geologica;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
+    color:#ffffff;    
+}
+
+.block_review_discount{
+    position:relative;
+}
+
+.block_rd_txt{
+text-align: center;
+position: absolute;
+top:100px;
+left:280px;
+}
+
+.block_rd_txt p{
+    font-family: Geologica;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 800;
+    color:#ffffff;
+}
+
+footer{
+    width:1900px;
+    height:200px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #004e83;
+    margin-top:100px;
+}
+
+.block_footer_contact p{
+    font-family: Geologica;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    color:#ffffff;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.block_footer_logo{
+    font-family: Geologica;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    color:#ffffff;
+}
+
+.block_footer_tele{
+    font-family: Geologica;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    color:#ffffff;
+}
