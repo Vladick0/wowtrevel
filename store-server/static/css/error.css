@@ -1,0 +1,17 @@
+.block_error{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6{
+    font-family:Geologica;
+    color:brown;
+    font-size:64px;
+}
+
+h3{
+    font-family:Geologica;
+    color:rgb(0, 0, 0);
+    font-size:32px;
+}

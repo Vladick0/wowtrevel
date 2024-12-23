@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/registration.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <title>{{title}}</title>
+</head>
+<body style="background-image: url(static/img/reg_img.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;">
+    <header>
+        <div class="main_menu">
+            <div class="menu">
+                <p><a href="{% url 'aboutus' %}">о нас</a></p>
+                <p><a href="{% url 'tours' %}">туры</a></p>
+                <p><a href="{% url 'error' %}">каталог</a></p>
+                <h3><a href="{% url 'main' %}">WOWТУР</a></h3>
+                <p><a href="{% url 'reviews' %}">отзывы</a></p>
+                <p><a href="{% url 'error' %}">контакты</a></p>
+                <p><a href="{% url 'registration' %}">вход</a></p>
+            </div>  
+        </div>
+    </header>
+    <div class="block_registration">
+        
+        <div class="block_reg_maintxt">
+            <h3>Регистрация</h3>
+        </div>
+        <div class="block_reg_inputs">
+            <div class="input">
+                <p>имя</p>
+                <input type="text">
+            </div>
+            <div class="input">
+                <p>фамилия</p>
+                <input type="text">
+            </div>
+            <div class="input">
+                <p>отчество</p>
+                <input type="text">
+            </div>
+            <div class="input">
+                <p>дата рождения</p>
+                <input type="text">
+            </div>
+            <div class="input">
+                <p>пароль</p>
+                <input type="text">
+            </div>
+            <div class="input">
+                <p>повторить пароль</p>
+                <input type="text">
+            </div>
+        </div>
+        <div class="block_reg_btn">
+            <button>зарегестрироваться</button>
+        </div>
+    </div>
+    <div class="block_dopinfo">
+        <div class="block_dopinfo_maintxt">
+            <h3>Дополнительно</h3>
+        </div>
+        <div class="block_dopinfo_txt">
+            <ul>
+                <li>Регистрация обязательна для доступа к полному функционалу сайта и бронирования туров.</li>
+                <li>Заполните все поля регистрационной формы. Неправильно указанные данные могут привести к проблемам с подтверждением бронирования.</li>
+                <li>Укажите действующий адрес электронной почты. На него будут отправляться подтверждения бронирования и важная информация.</li>
+                <li>Придумайте надежный пароль. Пароль должен содержать не менее [количества] символов и включать буквы, цифры и специальные символы (рекомендуется).</li>
+                <li>Ознакомьтесь с условиями использования сайта и политикой конфиденциальности. Ознакомьтесь с документами перед регистрацией.</li>
+                <li>После регистрации проверьте свою электронную почту. Вам будет отправлено письмо с подтверждением регистрации.</li>
+                <li>Храните свои данные в безопасности. Не сообщайте свой пароль третьим лицам.</li>
+                <li>В случае возникновения вопросов обращайтесь в службу поддержки. Контакты указаны в разделе «Помощь».</li>
+                <li>Не используйте чужие данные для регистрации. Регистрируйтесь только под своим именем.</li>
+                <li>Администрация сайта имеет право отказать в регистрации без объяснения причин.</li>
+            </ul>
+            <p></p>
+            <p> </p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+    </div>
+    <footer>
+        <div class="block_footer_contact">
+            <p><a href="https://vk.com/wowTur">ВК:Wowtour</a></p>
+            <p><a href="https://t.me/wowTur">ТГ:@Wowtouroff</a></p>
+        </div>
+        <div class="block_footer_logo">
+            <h3>WOWТУР</h3>
+        </div>
+        <div class="block_footer_tele">
+            <p>тел: 89033456778</p>
+        </div>
+    </footer> 
+</body>
+</html>

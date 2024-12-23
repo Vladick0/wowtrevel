@@ -1,0 +1,348 @@
+html{
+    background: #0377C6;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.main_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    display:flex;
+    width:1900px;
+    height:100px;
+    justify-content: space-around;
+    background-color:rgba(0, 0, 0, .2);
+    align-items: center;
+}
+
+.main_menu_txt{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_menu_txt h2{
+    font-family: Geologica;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: 600;
+    color:#ffffff;
+}
+
+.main_menu_txt p{
+    font-family: Geologica;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    color:#ffffff;
+}
+
+.main_menu_btn button{
+    width:230px;
+    height:50px;
+    border-radius: 50px;
+    border:none;
+    font-family: Geologica;
+    font-size:20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:#007BFF;
+;
+}
+
+.main_menu_btn button:hover{
+    background: #007BFF;
+    color: #ffffff;
+    transform: scale(0.99);
+}
+
+.menu p{
+    font-family: 'Geologica';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.menu h3{
+    font-family: 'Geologica';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    color:#ffffff;
+}
+
+.block_turkey{
+    width:1700px;
+    height:350px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    animation: slideRight 2s ease-in-out;
+}
+
+.block_turkey_txt{
+    width:500px;
+    text-align: right;
+}
+
+.block_img_turkey{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.block_img_turkey button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:250px;
+    height:60px;
+    border:none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size:20px;
+    font-family: Geologica;
+    color:#007BFF;
+    transform: rotate(-12deg);
+}
+
+.block_img_turkey button:hover{
+    background: #007BFF;
+    color: #ffffff;
+    transform: scale(0.99);
+    transform: rotate(-12deg);
+}
+
+.block_turkey_txt h3{
+    font-family: Geologica;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 900;
+    color:#ffffff;
+}
+
+.block_turkey_txt p{
+    font-family: Geologica;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    color:#ffffff;
+}
+
+.block_egypt{
+    width:1700px;
+    height:450px;
+    background: #6db3ff;
+    display:flex;
+    align-items: center;
+    padding:20px;
+    justify-content: space-around;
+    animation: slideLeft 2s ease-in-out;
+}
+
+.block_egypt_txt{
+    width:550px;
+
+}
+
+.block_egypt_txt h3{
+    font-family: Geologica;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 40px;
+    color:#ffffff;
+}
+
+.block_egypt_txt p{
+    font-family: Geologica;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 25px;
+    color:#ffffff;
+}
+
+.block_egypt_img{
+    display: flex;
+    flex-direction: column;
+}
+
+.block_egypt_img button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:250px;
+    height:60px;
+    border:none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size:20px;
+    font-family: Geologica;
+    color:#007BFF;
+    transform: rotate(12deg);
+}
+
+.block_egypt_img button:hover{
+    background: #007BFF;
+    color: #ffffff;
+    transform: scale(0.99);
+    transform: rotate(12deg);
+}
+
+.block_dubai{
+    width:1700px;
+    height:450px;
+    display: flex;
+    justify-content: space-around;
+    margin:20px;
+    animation: slideRight 2s ease-in-out;
+}
+
+.block_dubai_txt{
+    width:500px;
+    text-align: right;
+}
+
+.block_dubai_txt h3{
+    font-family: Geologica;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 40px;
+    color:#ffffff;
+}
+
+.block_dubai_txt p{
+    font-family: Geologica;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 25px;
+    color:#ffffff;
+}
+
+.block_dubai_img{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.block_dubai_img button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:250px;
+    height:60px;
+    border:none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size:20px;
+    font-family: Geologica;
+    color:#007BFF;
+    transform: rotate(-12deg);
+}
+
+.block_dubai_img button:hover{
+    background: #007BFF;
+    color: #ffffff;
+    transform: scale(0.99);
+    transform: rotate(-12deg);
+}
+
+.block_application{
+    position:relative;
+    width:1100px;
+    height:200px;
+}
+
+.block_application_txt{
+    position: absolute;
+    top:0px;
+    left:150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block_app_btn{
+    display:flex;
+    justify-content: space-around;
+}
+
+.block_app_btn button{
+    width:170px;
+    height:55px;
+    border:none;
+    border-radius: 50px;
+    font-family: Geologica;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    color:#007BFF;
+    margin:30px;
+}
+
+.block_app_btn button:hover{
+    background: #007BFF;
+    color: #ffffff;
+    transform: scale(0.99);
+}
+
+.block_application_txt h4{
+    font-family: Geologica;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    color:#ffffff;
+    text-align: center;
+}
+
+footer{
+    width:1900px;
+    height:200px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #004e83;
+    margin-top:100px;
+}
+
+.block_footer_contact p{
+    font-family: Geologica;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    color:#ffffff;
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.block_footer_logo{
+    font-family: Geologica;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    color:#ffffff;
+}
+
+.block_footer_tele{
+    font-family: Geologica;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    color:#ffffff;
+}

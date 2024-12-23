@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/reviews.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <title>{{title}}</title>
+</head>
+<body>
+    <header>
+        <div class="main_menu">
+            <div class="menu">
+                <p><a href="{% url 'aboutus' %}">о нас</a></p>
+                <p><a href="{% url 'tours' %}">туры</a></p>
+                <p><a href="{% url 'error' %}">каталог</a></p>
+                <h3><a href="{% url 'main' %}">WOWТУР</a></h3>
+                <p><a href="{% url 'reviews' %}">отзывы</a></p>
+                <p><a href="{% url 'error' %}">контакты</a></p>
+                <p><a href="{% url 'registration' %}">вход</a></p>
+            </div>
+        </div>
+    </header>
+        
+  
+    <div class="block_f_rev">
+        <div class="block_maintxt">
+        <h3>отзывы</h3>
+    </div>
+        <div class="block_frev_img">
+            <img src="/static/img/fam_maroko.png" alt="">
+        </div>
+        <div class="block_frev_txt">
+            <h4>СЕМЕЙНАЯ ПАРА, 2-Х НЕДЕЛЬНЫЙ ТУР ПО МАРОККО</h4>
+            <p>
+            Две недели в Марокко — это сказка! Путешествие с WOWТУР превзошло все ожидания. Марракеш поразил яркими красками, Фес — лабиринтами улочек, а Сахара — величием пустыни.
+            Мы наслаждались вкуснейшей марокканской кухней, гостеприимством местных жителей и потрясающими видами. Все было идеально спланировано, никаких накладок. 
+            Спасибо WOWТУР за незабываемый отпуск! 
+            Рекомендуем всем!
+            </p>
+        </div>
+    </div>
+    <div class="block_s_rev">
+        <div class="block_srev_txt">
+            <div class="block_srevtxt_f">
+                <h4>
+                ДРУЗЬЯ, 
+                5 ДНЕВНЫЙ ТУР 
+                ПО ПАРИЖУ
+            </h4>
+            <p>
+                Поездка в Париж с друзьями на 5 дней с WOWТУР — это лучшее, что могло с нами случиться! 
+                Эйфелева башня, Лувр, Монмартр — мы увидели все главные достопримечательности. 
+            </p>
+            </div>
+            <div class="block_srev_img">
+                <img src="/static/img/fr_paris.png" alt="">
+            </div>
+        </div>
+        <div class="block_srev_txt_s">
+            <p>
+                Организация была на высоте, никаких заминок, мы просто наслаждались городом и компанией. 
+                WOWТУР, спасибо за эти незабываемые эмоции и лёгкость путешествия!
+            </p>
+        </div>
+    </div>
+    <div class="block_t_rev">
+        <div class="block_trev_img">
+            <img src="/static/img/tour_alps.png" alt="">
+        </div>
+        <div class="block_trev_txt">
+            <div class="block_trevtxt_main">
+                <h3>
+                    ОДИНОЧНЫЙ ТУР В АЛЬПЫ НА 3 ДНЯ
+                </h3>
+            </div>
+            <div class="block_trevtxt_p">
+                <p>
+                    Альпы с WOWТУР — это моя перезагрузка! 
+
+3 дня пролетели как в сказке.Горные пейзажи завораживали, воздух был кристально чистым, а прогулки по тропам доставляли истинное наслаждение. 
+WOWТУР организовал все на высшем уровне, я чувствовала себя комфортно и безопасно.
+Это путешествие для души, и я обязательно вернусь сюда еще раз.
+Спасибо WOWТУР за эту возможность!
+Рекомендую всем, кто хочет побыть наедине с природой.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="block_review_discount">
+        <img src="/static/img/review_discount.png" alt="">
+        <div class="block_rd_txt">
+            <p>ДАРИМ СКИДКУ 10% <br>
+                ЗА ОСТАВЛЕННЫЙ ОТЗЫВ</p>
+        </div>
+    </div>
+    <footer>
+        <div class="block_footer_contact">
+            <p><a href="https://vk.com/wowTur">ВК:Wowtour</a></p>
+            <p><a href="https://t.me/wowTur">ТГ:@Wowtouroff</a></p>
+        </div>
+        <div class="block_footer_logo">
+            <h3>WOWТУР</h3>
+        </div>
+        <div class="block_footer_tele">
+            <p>тел: 89033456778</p>
+        </div>
+    </footer> 
+</body>
+</html>

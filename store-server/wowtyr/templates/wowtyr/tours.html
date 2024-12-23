@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/tours.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="main_menu">
+            <div class="menu">
+                <p><a href="{% url 'aboutus' %}">о нас</a></p>
+                <p><a href="{% url 'tours' %}">туры</a></p>
+                <p><a href="{% url 'error' %}">каталог</a></p>
+                <h3><a href="{% url 'main' %}">WOWТУР</a></h3>
+                <p><a href="{% url 'reviews' %}">отзывы</a></p>
+                <p><a href="{% url 'error' %}">контакты</a></p>
+                <p><a href="{% url 'registration' %}">вход</a></p>
+            </div>
+        </div>
+    </header>
+    <div class="block_tours">
+        <div class="block_t_maintxt">
+            <h3>туры</h3>
+        </div>
+        <div class="block_countries">
+            <div class="first_block">
+                <div class="block_c_f">
+                    <div class="block_c_txt">
+                        <img src="/static/img/japan.png" alt="">
+                        <p>япония</p>
+                    </div>
+                    <div class="block_c_txt">
+                        <img src="/static/img/turkey1.png" alt="">
+                        <p>турция</p>
+                    </div>
+                </div>
+                <div class="block_c_s">
+                    <img src="/static/img/dubai1.png" alt="">
+                    <div class="block_cs_txt">
+                        <p>дубай</p>
+                    </div>
+                </div>
+            </div>
+            <div class="second_block">
+                <div class="block_c_s_s">
+                    <img src="/static/img/china1.png" alt="">
+                    <div class="block_css_txt_china">
+                        <p>китай</p>
+                    </div>
+                </div>
+                <div class="block_c_s_s">
+                    <img src="/static/img/alps.png" alt="">
+                    <div class="block_css_s_txt">
+                        <p>альпы</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block_switzerland">
+            <img src="/static/img/switzerland.png" alt="">
+                <div class="block_s_txt">
+                    <p>швейцария</p>
+                </div>
+                <div class="block_stxt_btn">
+                    <button>узнать больше</button>
+                </div>
+        </div>
+    </div>
+    <div class="block_calc_dc">
+        <img src="/static/img/newyork.png" alt="">
+
+        <div class="block_cdc_maintxt">
+            <h3>Расчитать <br> цену</h3>
+        </div>
+        <div class="block_input_outin">
+            <input type="откуда" placeholder="откуда">
+            <input type="куда" placeholder="куда">
+        </div>
+        <div class="block_input_date">
+            <input type="date" placeholder="когда">
+        </div>
+        <div class="block_input_peoples">
+            <select name="" id="">
+                <option value="">1 человек</option>
+                <option value="">2 человека</option>
+                <option value="">3 человека</option>
+                <option value="">4 человека</option>
+                <option value="">5+ людей</option>
+            </select>
+        </div>
+        <div class="block_input_bags">
+            <select name="" id="">
+                <option value="">менее 10 кг</option>
+                <option value="">более 10 кг</option>
+            </select>
+        </div>
+        <div class="block_cdc_btn">
+            <button>Найти подходящий вариант</button>
+        </div>
+
+    </div>
+    <div class="block_discount">
+        <img src="/static/img/swedan.png" alt="">
+        <div class="block_d_txt">
+            <p>СКИДКИ ДО 15% <br> ПРИ БРОНИРОВАНИИ ЗА 120 ДНЕЙ</p>
+        </div>
+    </div>
+    <footer>
+        <div class="block_footer_contact">
+            <p><a href="https://vk.com/wowTur">ВК:Wowtour</a></p>
+            <p><a href="https://t.me/wowTur">ТГ:@Wowtouroff</a></p>
+        </div>
+        <div class="block_footer_logo">
+            <h3>WOWТУР</h3>
+        </div>
+        <div class="block_footer_tele">
+            <p>тел: 89033456778</p>
+        </div>
+    </footer>
+</body>
+
+</html>
